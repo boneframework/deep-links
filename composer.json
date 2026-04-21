@@ -1,0 +1,19 @@
+{
+    "name": "boneframework/deep-links",
+    "description": "Deep link into iOS and Android apps",
+    "type": "library",
+    "require": {
+        "boneframework/bone": "^3.13"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bone\\DeepLinks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Derek Stephen McLean"
+        }
+    ]
+}
