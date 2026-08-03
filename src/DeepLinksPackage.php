@@ -56,6 +56,6 @@ class DeepLinksPackage implements RegistrationInterface, RouterConfigInterface
     public function addRoutes(Container $c, Router $router)
     {
        $router->get('/.well-known/apple-app-site-association', [DeepLinksController::class, 'iOS']);
-       $router->get('/.well-known/assetlinks.json', [DeepLinksController::class, 'iOS']);
+       $router->get('/.well-known/assetlinks.json', [DeepLinksController::class, 'android']);
     }
 }
