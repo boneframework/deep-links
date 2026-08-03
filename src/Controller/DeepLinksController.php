@@ -21,6 +21,6 @@ class DeepLinksController
 
     public function android(ServerRequestInterface $request): ResponseInterface
     {
-        return new JsonResponse($this->settings['iOS']);
+        return new JsonResponse($this->settings['android']);
     }
 }
